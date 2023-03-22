@@ -1,0 +1,14 @@
+{
+  "name": "computation",
+  "version": "1.0.0",
+  "description": "Code samples Understanding Computation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "b11n",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
