@@ -8,4 +8,8 @@ module.exports = class Environment {
     set(key,val){
         return this.env_.set(key, val);
     }
+
+    merge(key,val) {
+        return this.env_.set(key.value, val);
+    }
 }
